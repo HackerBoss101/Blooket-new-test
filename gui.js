@@ -2853,7 +2853,7 @@
                         for (const body of Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[0].current.config.sceneConfig.physics.world.bodies.entries) {
                             if (!body.gameObject.frame.texture.key.startsWith("blook")) continue;
                             body.checkCollision.none = this.enabled;
-                            body.gameObject.setAlpha(this.enabled ? 0.5 : 1);
+                            // body.gameObject.setAlpha(this.enabled ? 0.5 : 1);
                             break;
                         }
                     },
