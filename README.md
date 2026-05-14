@@ -15,4 +15,6 @@ Works for hacking blooket.
 9. Press `ok` on the popup and close the console.
 10. Ready to play! 
 
+
+
 for peope who liked it
